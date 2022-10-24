@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'primeng-demo';
+  title: string = "";
+
+  upper() {
+    this.title = this.title.toUpperCase();
+  }
 }
