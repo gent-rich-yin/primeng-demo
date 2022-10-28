@@ -4,9 +4,15 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 1em;
 }
 
 body {
     box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
 }
+
+@import "primeng/resources/primeng.min.css";
+@import "primeng/resources/themes/saga-blue/theme.css";
+@import "primeflex/primeflex.scss";
+@import "primeicons/primeicons.css";

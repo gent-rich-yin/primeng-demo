@@ -1,0 +1,22 @@
+.main {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 2rem;
+
+    section {
+        padding-bottom: 1.5rem;
+        h3 {
+            font-size: 1.3rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }
+        ::ng-deep .p-button {
+            margin-right: .5rem;
+        }
+        ::ng-deep .p-buttonset .p-button {
+            margin-right: 0;
+        }
+    }
+
+}
+

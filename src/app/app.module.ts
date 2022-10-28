@@ -8,10 +8,14 @@ import { AppComponent } from './app.component';
 import { ButtonModule } from 'primeng/button';
 import { InputTextModule } from 'primeng/inputtext';
 import { SplitterModule } from 'primeng/splitter';
+import { StyleClassModule } from 'primeng/styleclass';
+import { RippleModule } from 'primeng/ripple';
+import { ButtonComponent } from './components/button/button.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
@@ -19,7 +23,9 @@ import { SplitterModule } from 'primeng/splitter';
     FormsModule,
     ButtonModule,
     InputTextModule,
-    SplitterModule
+    SplitterModule,
+    StyleClassModule,
+    RippleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
