@@ -1,0 +1,89 @@
+<p-toast></p-toast>
+<div class="main">
+    <section>
+        <h3>Basic</h3>
+        <p-splitButton label="Save" icon="pi pi-plus" (onClick)="save('info')" [model]="items"></p-splitButton>
+    </section>
+    <section>
+        <h3>Nested</h3>
+        <p-splitButton label="Save" icon="pi pi-plus" (onClick)="save('info')" [model]="nestedItems"></p-splitButton>
+    </section>
+    <section>
+        <h3>Severities</h3>
+        <p-splitButton label="Primary" icon="pi pi-plus" (onClick)="save('primary')" [model]="items"></p-splitButton>
+        <p-splitButton label="Secondary" icon="pi pi-plus" (onClick)="save('secondary')" [model]="items" styleClass="p-button-secondary mb-2"></p-splitButton>
+        <p-splitButton label="Success" icon="pi pi-plus" (onClick)="save('success')" [model]="items" styleClass="p-button-success mb-2"></p-splitButton>
+        <p-splitButton label="Info" icon="pi pi-plus" (onClick)="save('info')" [model]="items" styleClass="p-button-info mb-2"></p-splitButton>
+        <p-splitButton label="Warning" icon="pi pi-plus" (onClick)="save('warn')" [model]="items" styleClass="p-button-warning mb-2"></p-splitButton>
+        <p-splitButton label="Help" icon="pi pi-plus" (onClick)="save('info')" [model]="items" styleClass="p-button-help mb-2"></p-splitButton>
+        <p-splitButton label="Danger" icon="pi pi-plus" (onClick)="save('error')" [model]="items" styleClass="p-button-danger mb-2"></p-splitButton>
+    </section>
+    <section>
+        <h3>Raised Buttons</h3>
+        <p-splitButton label="Primary" icon="pi pi-plus" (onClick)="save('primary')" [model]="items" styleClass="p-button-raised"></p-splitButton>
+        <p-splitButton label="Secondary" icon="pi pi-plus" (onClick)="save('secondary')" [model]="items" styleClass="p-button-secondary mb-2 p-button-raised"></p-splitButton>
+        <p-splitButton label="Success" icon="pi pi-plus" (onClick)="save('success')" [model]="items" styleClass="p-button-success mb-2 p-button-raised"></p-splitButton>
+        <p-splitButton label="Info" icon="pi pi-plus" (onClick)="save('info')" [model]="items" styleClass="p-button-info mb-2 p-button-raised"></p-splitButton>
+        <p-splitButton label="Warning" icon="pi pi-plus" (onClick)="save('warn')" [model]="items" styleClass="p-button-warning mb-2 p-button-raised"></p-splitButton>
+        <p-splitButton label="Help" icon="pi pi-plus" (onClick)="save('info')" [model]="items" styleClass="p-button-help mb-2 p-button-raised"></p-splitButton>
+        <p-splitButton label="Danger" icon="pi pi-plus" (onClick)="save('error')" [model]="items" styleClass="p-button-danger mb-2 p-button-raised"></p-splitButton>
+    </section>
+    <section>
+        <h3>Rounded Buttons</h3>
+        <p-splitButton label="Primary" icon="pi pi-plus" (onClick)="save('primary')" [model]="items" styleClass="p-button-rounded"></p-splitButton>
+        <p-splitButton label="Secondary" icon="pi pi-plus" (onClick)="save('secondary')" [model]="items" styleClass="p-button-secondary mb-2 p-button-rounded"></p-splitButton>
+        <p-splitButton label="Success" icon="pi pi-plus" (onClick)="save('success')" [model]="items" styleClass="p-button-success mb-2 p-button-rounded"></p-splitButton>
+        <p-splitButton label="Info" icon="pi pi-plus" (onClick)="save('info')" [model]="items" styleClass="p-button-info mb-2 p-button-rounded"></p-splitButton>
+        <p-splitButton label="Warning" icon="pi pi-plus" (onClick)="save('warn')" [model]="items" styleClass="p-button-warning mb-2 p-button-rounded"></p-splitButton>
+        <p-splitButton label="Help" icon="pi pi-plus" (onClick)="save('info')" [model]="items" styleClass="p-button-help mb-2 p-button-rounded"></p-splitButton>
+        <p-splitButton label="Danger" icon="pi pi-plus" (onClick)="save('error')" [model]="items" styleClass="p-button-danger mb-2 p-button-rounded"></p-splitButton>
+    </section>
+    <section>
+        <h3>Text Buttons</h3>
+        <p-splitButton label="Primary" icon="pi pi-plus" (onClick)="save('primary')" [model]="items" styleClass="p-button-text"></p-splitButton>
+        <p-splitButton label="Secondary" icon="pi pi-plus" (onClick)="save('secondary')" [model]="items" styleClass="p-button-secondary mb-2 p-button-text"></p-splitButton>
+        <p-splitButton label="Success" icon="pi pi-plus" (onClick)="save('success')" [model]="items" styleClass="p-button-success mb-2 p-button-text"></p-splitButton>
+        <p-splitButton label="Info" icon="pi pi-plus" (onClick)="save('info')" [model]="items" styleClass="p-button-info mb-2 p-button-text"></p-splitButton>
+        <p-splitButton label="Warning" icon="pi pi-plus" (onClick)="save('warn')" [model]="items" styleClass="p-button-warning mb-2 p-button-text"></p-splitButton>
+        <p-splitButton label="Help" icon="pi pi-plus" (onClick)="save('info')" [model]="items" styleClass="p-button-help mb-2 p-button-text"></p-splitButton>
+        <p-splitButton label="Danger" icon="pi pi-plus" (onClick)="save('error')" [model]="items" styleClass="p-button-danger mb-2 p-button-text"></p-splitButton>
+        <p-splitButton label="Plain" icon="pi pi-plus" (onClick)="save('info')" [model]="items" styleClass="p-button-plain mb-2 p-button-text"></p-splitButton>
+    </section>
+    <section>
+        <h3>Raised Text Buttons</h3>
+        <p-splitButton label="Primary" icon="pi pi-plus" (onClick)="save('primary')" [model]="items" styleClass="p-button-text p-button-raised"></p-splitButton>
+        <p-splitButton label="Secondary" icon="pi pi-plus" (onClick)="save('secondary')" [model]="items" styleClass="p-button-secondary mb-2 p-button-text p-button-raised"></p-splitButton>
+        <p-splitButton label="Success" icon="pi pi-plus" (onClick)="save('success')" [model]="items" styleClass="p-button-success mb-2 p-button-text p-button-raised"></p-splitButton>
+        <p-splitButton label="Info" icon="pi pi-plus" (onClick)="save('info')" [model]="items" styleClass="p-button-info mb-2 p-button-text p-button-raised"></p-splitButton>
+        <p-splitButton label="Warning" icon="pi pi-plus" (onClick)="save('warn')" [model]="items" styleClass="p-button-warning mb-2 p-button-text p-button-raised"></p-splitButton>
+        <p-splitButton label="Help" icon="pi pi-plus" (onClick)="save('info')" [model]="items" styleClass="p-button-help mb-2 p-button-text p-button-raised"></p-splitButton>
+        <p-splitButton label="Danger" icon="pi pi-plus" (onClick)="save('error')" [model]="items" styleClass="p-button-danger mb-2 p-button-text p-button-raised"></p-splitButton>
+        <p-splitButton label="Plain" icon="pi pi-plus" (onClick)="save('info')" [model]="items" styleClass="p-button-plain mb-2 p-button-text p-button-raised"></p-splitButton>
+    </section>
+    <section>
+        <h3>Outlined Buttons</h3>
+        <p-splitButton label="Primary" icon="pi pi-plus" (onClick)="save('primary')" [model]="items" styleClass="p-button-outlined"></p-splitButton>
+        <p-splitButton label="Secondary" icon="pi pi-plus" (onClick)="save('secondary')" [model]="items" styleClass="p-button-secondary mb-2 p-button-outlined"></p-splitButton>
+        <p-splitButton label="Success" icon="pi pi-plus" (onClick)="save('success')" [model]="items" styleClass="p-button-success mb-2 p-button-outlined"></p-splitButton>
+        <p-splitButton label="Info" icon="pi pi-plus" (onClick)="save('info')" [model]="items" styleClass="p-button-info mb-2 p-button-outlined"></p-splitButton>
+        <p-splitButton label="Warning" icon="pi pi-plus" (onClick)="save('warn')" [model]="items" styleClass="p-button-warning mb-2 p-button-outlined"></p-splitButton>
+        <p-splitButton label="Help" icon="pi pi-plus" (onClick)="save('info')" [model]="items" styleClass="p-button-help mb-2 p-button-outlined"></p-splitButton>
+        <p-splitButton label="Danger" icon="pi pi-plus" (onClick)="save('error')" [model]="items" styleClass="p-button-danger mb-2 p-button-outlined"></p-splitButton>
+        <p-splitButton label="Plain" icon="pi pi-plus" (onClick)="save('info')" [model]="items" styleClass="p-button-plain mb-2 p-button-outlined"></p-splitButton>
+    </section>
+    <section>
+        <h3>Sizes</h3>
+        <p-splitButton label="Small" icon="pi pi-plus" [model]="items" styleClass="p-button-sm"></p-splitButton>
+        <p-splitButton label="Normal" icon="pi pi-plus" [model]="items"></p-splitButton>
+        <p-splitButton label="Large" icon="pi pi-plus" [model]="items" styleClass="p-button-lg"></p-splitButton>
+    </section>
+    <section>
+        <h3>Templating</h3>
+        <p-splitButton label="Normal" styleClass="bg-primary" [model]="this.items">
+            <ng-template pTemplate="content">
+                <img alt="logo" src="assets/images/primeng-icon.svg" style="width: 1rem" />
+                <span class="ml-2 flex align-items-center font-bold">PrimeNG</span>
+            </ng-template>
+        </p-splitButton>
+    </section>
+</div>
