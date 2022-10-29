@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { AutoCompleteModule } from 'primeng/autocomplete';
 import { ButtonModule } from 'primeng/button';
 import { InputTextModule } from 'primeng/inputtext';
 import { SplitterModule } from 'primeng/splitter';
@@ -20,6 +21,7 @@ import { SpeedDialComponent } from './components/speed-dial/speed-dial.component
 import { MessageService } from 'primeng/api';
 import { IconsComponent } from './components/icons/icons.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AutoCompleteComponent } from './components/auto-complete/auto-complete.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     ButtonComponent,
     SplitButtonComponent,
     SpeedDialComponent,
-    IconsComponent
+    IconsComponent,
+    AutoCompleteComponent
   ],
   imports: [
     BrowserModule,
@@ -35,6 +38,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
+    AutoCompleteModule,
     ButtonModule,
     InputTextModule,
     SplitterModule,
